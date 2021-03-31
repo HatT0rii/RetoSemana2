@@ -1,0 +1,68 @@
+body{
+    padding: 50px;
+    font-size: 14px;
+}
+div{
+    background-color:#97C8FF;
+    padding: 15px;
+    border: 10px;
+    margin:auto;
+    height: 440px;
+    width: 300px;
+    border:1px solid black;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+form{
+    
+    font-size: 20px;
+    outline: none;
+    
+}
+
+
+input{
+    outline: none;
+}
+
+input:valid:focus{
+    border: 1px solid green;
+    
+}
+
+input:invalid:focus{
+    border: 1px solid red;
+}
+
+input.expa{
+    width: 295px;
+    height: 20px;
+}
+
+textarea{
+    width: 300px;
+    outline: none;
+    resize: none;
+}
+
+textarea:valid:focus{
+    border: 1px solid green;
+    
+}
+
+textarea:invalid:focus{
+    border: 1px solid red;
+}
+
+.boton{
+    margin:0 35%;
+    background: #39AEFF ;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
